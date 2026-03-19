@@ -1,0 +1,404 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>
+      La liberté de la presse, un pilier de la démocratie - EMC Collège Stanislas
+    </title>
+    <link rel="stylesheet" href="css/reset.css" />
+    <link rel="stylesheet" href="css/main.css" />
+  </head>
+  <body>
+    <div id="overlay"></div>
+
+    <div id="sidebar">
+      <div class="close-btn" id="menu-close">&times;</div>
+      <h3>Navigation</h3>
+      <ul>
+        <li><a href="#" onclick="toggleMenu();">Accueil</a></li>
+        <li><a href="#section-1" onclick="toggleMenu();">I. Pilier démocratique</a></li>
+        <li><a href="#section-2" onclick="toggleMenu();">II. Régimes autoritaires</a></li>
+        <li><a href="#section-3" onclick="toggleMenu();">III. Libertés d'opinion</a></li>
+        <li><a href="#section-4" onclick="toggleMenu();">IV. Pluralisme</a></li>
+        <li><a href="#section-5" onclick="toggleMenu();">V. Travail journalistique</a></li>
+        <li><a href="#section-6" onclick="toggleMenu();">VI. Rôle de l'ARCOM</a></li>
+        <li><a href="#conclusion" onclick="toggleMenu();">Conclusion</a></li>
+      </ul>
+    </div>
+
+    <div id="search-overlay">
+      <input type="text" id="search-input" placeholder="Rechercher dans l'article...">
+      <div id="search-close">&times;</div>
+    </div>
+
+    <nav class="main-nav flex-h space-between align-center">
+      <div class="left">
+        <i class="fas fa-bars" id="menu-btn"></i>
+        <i class="fas fa-search" id="search-btn"></i>
+        <a href="#">SOCIÉTÉ & DÉMOCRATIE</a>
+      </div>
+
+      <div class="middle">
+        <a href="#" class="logo">EMC Collège Stanislas</a>
+      </div>
+
+      <div class="right">
+        <button class="btn">S'ABONNER</button>
+      </div>
+    </nav>
+
+    <main class="articles">
+      <div class="article-title">
+        <h1>
+          La liberté de la presse, un pilier de la démocratie
+        </h1>
+      </div>
+      <figure class="article-image flex-v align-center m-b-3">
+        <img src="images/hero.png" alt="Presse et Démocratie" />
+        <figcaption>
+          <div class="drop-cap">
+            La liberté de la presse et la liberté de l’information sont très importantes dans une démocratie. Elles permettent aux citoyens d’avoir accès à des informations fiables et de comprendre ce qui se passe dans leur pays et dans le monde. Grâce aux médias, les citoyens peuvent se faire leur propre opinion et participer à la vie démocratique.
+          </div>
+          <br>
+          <blockquote>
+            <strong>Problématique :</strong> En quoi la liberté de la presse et la liberté de l’information sont-elles essentielles pour la démocratie et pourquoi peuvent-elles être menacées ?
+          </blockquote>
+        </figcaption>
+      </figure>
+      <div class="article-header container flex-v">
+        <div class="article-author">
+          Par
+          <a href="#"><span class="last-byline">Nayl, Manoa, Tim et Marie Sophie</span></a>
+        </div>
+        <div class="article-social flex-h">
+          <div class="date">
+            19 mars 2026
+          </div>
+        </div>
+      </div>
+
+      <div id="section-1" class="first-part container reveal">
+        <h2>I. La liberté de la presse : un pilier de la démocratie</h2>
+        <p>
+          La liberté de la presse permet aux journalistes et aux médias de diffuser des informations librement, sans être censurés par le pouvoir politique.
+        </p>
+        <p>
+          En France, cette liberté est protégée par la loi du 29 juillet 1881. Cette loi permet aux journalistes d’enquêter, de publier des informations et de critiquer le pouvoir.
+        </p>
+            <blockquote>
+              "En France, la liberté de la presse est protégée par la loi du 29 juillet 1881, permettant aux journalistes d’enquêter et de critiquer le pouvoir librement."
+            </blockquote>
+            <p>
+              Les journalistes peuvent aussi révéler des scandales ou des abus. Par exemple, le site d’investigation Mediapart a révélé l’affaire impliquant le ministre Jérôme Cahuzac en 2012. Cette enquête a montré que ce ministre possédait un compte bancaire caché à l’étranger.
+        </p>
+        <p>
+          Cet exemple montre que la presse peut surveiller les responsables politiques et informer les citoyens.
+        </p>
+      </div>
+
+      <div id="section-2" class="second-part">
+        <div class="full-container">
+          <div class="container">
+            <h2>II. La liberté de la presse dans les régimes autoritaires</h2>
+            <figure class="inline-image">
+              <img src="images/censorship.png" alt="Censure">
+              <figcaption>La censure, ombre portée sur la liberté d'expression.</figcaption>
+            </figure>
+            <p>
+              Dans certains pays, la liberté de la presse n’existe presque pas. Les médias sont contrôlés par l’État et les journalistes ne peuvent pas critiquer le gouvernement.
+            </p>
+            <p>
+              Par exemple, en Corée du Nord, les médias sont entièrement contrôlés par le pouvoir. Les journalistes doivent diffuser uniquement les informations autorisées par le régime.
+            </p>
+            <p>
+              Chaque année, l’organisation Reporters sans Frontières publie un classement mondial de la liberté de la presse. Ce classement montre que dans certains pays les journalistes peuvent être arrêtés, menacés ou censurés.
+            </p>
+            <blockquote>
+              Selon le rapport mondial de RSF, la situation de la liberté de la presse est jugée comme « très grave » dans une trentaine de pays, et des centaines de journalistes sont actuellement emprisonnés dans le monde.
+            </blockquote>
+            <p>
+              Dans ces pays, les citoyens n’ont donc pas accès à une information libre.
+            </p>
+            <div class="subscribe-remider text-center">
+              <span class="subscribe-remider-text"
+                >Soutenez la presse lycéenne indépendante.</span
+              >
+              <a href="#" class="subscribe-remider-link"
+                >M'abonner</a
+              >
+            </div>
+          </div>
+        </div>
+
+        <aside class="editors-pick">
+          <p class="title-editors-pick">Choix de la rédaction</p>
+          <img
+            alt=""
+            src="https://static01.nyt.com/images/2020/04/02/fashion/01VIRUS-FIRE-bali-beach/01VIRUS-FIRE-bali-beach-square640.jpg?quality=75&amp;auto=webp&amp;disable=upscale&amp;width=350"
+          />
+          <p>
+            <a href="#">
+              Le journal du collège Stanislas : une nouvelle voix pour la liberté
+            </a>
+          </p>
+ 
+          <img
+            alt=""
+            src="https://static01.nyt.com/images/2020/04/02/multimedia/1-parenting-amazon/1-parenting-amazon-square640.jpg?quality=75&amp;auto=webp&amp;disable=upscale&amp;width=350"
+          />
+          <p>
+            <a href="#">Réseaux sociaux : comment s'informer sans se faire piéger ?</a>
+          </p>
+          <img
+            alt=""
+            src="https://static01.nyt.com/images/2020/03/31/nyregion/00nyvirus-19181/00nyvirus-19181-square640.jpg?quality=75&amp;auto=webp&amp;disable=upscale&amp;width=350"
+          />
+          <p>
+            <a href="#">
+              Liberté d'expression au lycée : ce qu'en pensent les élèves
+            </a>
+          </p>
+        </aside>
+      </div>
+
+      <div id="section-3" class="third-part container reveal">
+        <h2>III. Un lien étroit avec les libertés d’opinion et d’expression</h2>
+
+        <p>
+          La liberté de la presse est indissociable des libertés d’opinion et d’expression. En effet, pour qu’une presse soit libre, les individus doivent pouvoir exprimer leurs idées sans crainte de répression.
+        </p>
+        <p>
+          Les journalistes doivent pouvoir enquêter, publier et critiquer librement. De même, les citoyens doivent pouvoir partager leurs opinions, débattre et accéder à des points de vue différents.
+        </p>
+        <p>
+          Ces libertés sont complémentaires : sans liberté d’expression, la presse ne peut pas fonctionner librement ; sans presse libre, la liberté d’expression perd en visibilité et en impact.
+        </p>
+      </div>
+
+
+
+      <div id="section-4" class="fourth-part container reveal">
+        <h2>IV. Liberté d’expression et pluralisme de l’information</h2>
+        <p>
+          La liberté de la presse est liée à la liberté d’expression et à la liberté d’opinion. Ces libertés permettent aux personnes d’exprimer leurs idées et de débattre.
+        </p>
+        <p>
+          Elles permettent aussi le pluralisme de l’information. Le pluralisme signifie qu’il existe plusieurs médias et plusieurs points de vue.
+        </p>
+        <p>
+          Grâce à cela, les citoyens peuvent comparer les informations et développer leur esprit critique.
+        </p>
+        <p>
+          Sans pluralisme, l’information pourrait être contrôlée par un seul pouvoir ou une seule idée.
+        </p>
+      </div>
+
+      </div>
+
+      <div></div>
+      <div id="section-5" class="fifth-part container reveal">
+        <h2>V. Le travail des journalistes</h2>
+        <figure class="inline-image">
+          <img src="images/journalist.png" alt="Journaliste sur le terrain">
+          <figcaption>L'équipement du journaliste : outils de vérité en environnement urbain.</figcaption>
+        </figure>
+        <p>
+          Les journalistes ont pour mission principale d’informer les citoyens de manière fiable et vérifiée. Pour cela, ils doivent rechercher des informations, vérifier leurs sources et croiser les données afin d’éviter les fausses informations.
+        </p>
+        <p>
+          Leur travail demande de la rigueur, de l’honnêteté et de l’indépendance. Ils doivent respecter des règles déontologiques, comme ne pas diffuser de fausses informations ou protéger leurs sources.
+        </p>
+        <p>
+          Les journalistes peuvent travailler dans des domaines variés : presse écrite, télévision, radio ou internet. Certains sont spécialisés dans l’investigation et mènent des enquêtes approfondies sur des sujets sensibles.
+        </p>
+        <p>
+          Cependant, leur travail peut être difficile et parfois dangereux, notamment dans les pays où la liberté de la presse est limitée. Même dans les démocraties, les journalistes font face à de grandes difficultés comme la pression de certains milliardaires qui rachètent les médias, la précarité du métier, la diffusion de fake news sur les réseaux sociaux qui discrédite le travail des journalistes, ou encore le cyberharcèlement lorsqu'ils publient des enquêtes sensibles. Malgré cela, ils jouent un rôle essentiel pour informer la population et garantir la transparence.
+        </p>
+      </div>
+      <div id="section-6" class="sixth-part container reveal">
+        <h2>VI. Le rôle de l’ARCOM</h2>
+        <figure class="inline-image">
+          <img src="images/regulation.png" alt="Régulation des médias">
+          <figcaption>La régulation audiovisuelle au cœur des nouveaux enjeux numériques.</figcaption>
+        </figure>
+        <p>
+          L’Autorité de régulation de la communication audiovisuelle et numérique (ARCOM) est une institution française indépendante chargée de surveiller les médias audiovisuels (télévision, radio) et numériques.
+        </p>
+        <p>
+          Son rôle principal est de garantir le respect de la liberté d’expression tout en veillant à l'application des lois. Elle s’assure notamment que les médias respectent le pluralisme de l’information, c’est-à-dire la diversité des opinions et des points de vue dans les débats.
+        </p>
+        <p>
+          Dans le domaine politique, l'ARCOM joue un rôle de gendarme très strict. Pour garantir ce pluralisme, elle chronomètre littéralement le temps de parole et le temps d'antenne des personnalités politiques à la télévision et à la radio. L'objectif est de s'assurer que le gouvernement, la majorité et les différents partis d'opposition puissent s'exprimer de manière équitable, tout particulièrement pendant les périodes électorales.
+        </p>
+        <p>
+          L’ARCOM contrôle également les contenus diffusés pour protéger le public. Elle peut intervenir, mettre en demeure et même sanctionner financièrement les chaînes en cas de désinformation, de diffusion de propos haineux, ou pour assurer la protection des mineurs.
+        </p>
+        <p>
+          Cette protection est au cœur des débats actuels, notamment avec les projets visant à interdire l'accès aux réseaux sociaux pour les moins de 15 ans. Cela pose une vraie question démocratique : comment protéger les jeunes face aux algorithmes et aux fausses informations, sans pour autant limiter leur droit à s'informer ?
+        </p>
+        <p>
+          Ainsi, l’ARCOM contribue directement au bon fonctionnement de la démocratie en garantissant une information pluraliste, respectueuse et encadrée.
+        </p>
+      </div>
+
+      <div id="conclusion" class="conclusion container reveal">
+        <h2>Conclusion</h2>
+        <p>
+          La liberté de la presse est un élément essentiel de la démocratie. Elle permet aux citoyens d’avoir accès à des informations variées et de comprendre les enjeux politiques et sociaux.
+        </p>
+        <p>
+          Cependant, dans certains pays, cette liberté est limitée ou inexistante. Les journalistes peuvent être censurés ou menacés.
+        </p>
+        <p>
+          C’est pourquoi le travail des journalistes et l’action d’organisations comme Reporters sans Frontières sont essentiels pour défendre la liberté de la presse.
+        </p>
+        <p>
+          Enfin, des institutions comme ARCOM permettent de protéger le pluralisme de l’information et le bon fonctionnement de la démocratie.
+        </p>
+      </div>
+
+      <div class="bibliography container reveal">
+        <h2>Bibliographie</h2>
+        <ul>
+          <li><a href="https://www.legifrance.gouv.fr/loda/id/LEGITEXT000006070722">Loi du 29 juillet 1881 sur la liberté de la presse</a></li>
+          <li><a href="https://www.arcom.fr/nous-connaitre/nos-missions">Missions de l'ARCOM</a></li>
+          <li><a href="https://www.clemi.fr/">CLEMI - Éducation aux médias</a></li>
+          <li><a href="https://rsf.org/fr/classement">RSF - Classement mondial</a></li>
+          <li><a href="https://rsf.org/fr/rapports">RSF - Rapports mondiaux</a></li>
+          <li><a href="https://www.amnesty.fr/liberte-d-expression">Amnesty International - Liberté d'expression</a></li>
+          <li><a href="https://www.mediapart.fr/journal/france/dossier/notre-dossier-l-affaire-cahuzac">Mediapart - Dossier Affaire Cahuzac</a></li>
+          <li><a href="https://ici.radio-canada.ca/info">Radio-Canada Info</a></li>
+        </ul>
+        <div class="article-footer">
+          Cet article a été rédigé dans le cadre d'un dossier de recherche en Éducation aux Médias et à l'Information (EMC).
+          <span>
+            .
+            <a href="#">Collège Stanislas</a> | <a href="#">Mars 2026</a>
+          </span>
+        </div>
+      </div>
+    </main>
+
+    <footer>
+      <div class="footer-nav">
+        <h3 class="ressources-title">Ressources & Institutions</h3>
+        <div class="ressources-grid">
+          <a href="https://rsf.org" target="_blank">Reporters sans Frontières</a>
+          <a href="https://arcom.fr" target="_blank">ARCOM</a>
+          <a href="https://amnesty.fr" target="_blank">Amnesty International</a>
+          <a href="https://clemi.fr" target="_blank">CLEMI</a>
+          <a href="https://www.legifrance.gouv.fr" target="_blank">Légifrance</a>
+        </div>
+      </div>
+      <div class="footer-copyright">
+        © 2026 EMC Collège Stanislas — Projet d'Éducation aux Médias et à l'Information
+      </div>
+    </footer>
+
+    <script>
+      // Sidebar Menu Logic
+      const sidebar = document.getElementById('sidebar');
+      const overlay = document.getElementById('overlay');
+      const menuBtn = document.getElementById('menu-btn');
+      const menuClose = document.getElementById('menu-close');
+
+      function toggleMenu() {
+        sidebar.classList.toggle('active');
+        overlay.classList.toggle('active');
+      }
+
+      menuBtn.addEventListener('click', toggleMenu);
+      menuClose.addEventListener('click', toggleMenu);
+      overlay.addEventListener('click', toggleMenu);
+
+      // Search Bar Logic
+      const searchOverlay = document.getElementById('search-overlay');
+      const searchBtn = document.getElementById('search-btn');
+      const searchClose = document.getElementById('search-close');
+      const searchInput = document.getElementById('search-input');
+
+      searchBtn.addEventListener('click', () => {
+        searchOverlay.classList.add('active');
+        searchInput.focus();
+      });
+
+      searchClose.addEventListener('click', () => {
+        searchOverlay.classList.remove('active');
+        clearHighlights();
+      });
+
+      // Real-time Search Highlight
+      const searchableElements = document.querySelectorAll('p, h2, blockquote, .drop-cap');
+      const originalContent = new Map();
+
+      // Store initial content
+      searchableElements.forEach((el, index) => {
+        originalContent.set(el, el.innerHTML);
+      });
+
+      function clearHighlights() {
+        searchableElements.forEach(el => {
+          el.innerHTML = originalContent.get(el);
+        });
+      }
+
+      searchInput.addEventListener('input', () => {
+        const query = searchInput.value.trim().toLowerCase();
+        clearHighlights();
+
+        if (query.length < 2) return;
+
+        let firstMatch = null;
+
+        searchableElements.forEach(el => {
+          const text = el.textContent.toLowerCase();
+          if (text.includes(query)) {
+            const regex = new RegExp(`(${query})`, 'gi');
+            el.innerHTML = originalContent.get(el).replace(regex, '<span class="highlight">$1</span>');
+            
+            if (!firstMatch) {
+              firstMatch = el;
+            }
+          }
+        });
+
+        if (firstMatch) {
+          firstMatch.scrollIntoView({ behavior: 'smooth', block: 'center' });
+        }
+      });
+
+      // Clear search on escape
+      window.addEventListener('keydown', (e) => {
+        if (e.key === 'Escape') {
+          searchOverlay.classList.remove('active');
+          clearHighlights();
+          sidebar.classList.remove('active');
+          overlay.classList.remove('active');
+        }
+      });
+
+      // Scrollytelling: Reveal sections on scroll
+      const observerOptions = {
+        threshold: 0.1
+      };
+
+      const observer = new IntersectionObserver((entries) => {
+        entries.forEach(entry => {
+          if (entry.isIntersecting) {
+            entry.target.classList.add('active');
+          }
+        });
+      }, observerOptions);
+
+      document.querySelectorAll('.reveal').forEach(section => {
+        observer.observe(section);
+      });
+    </script>
+
+    <script
+      src="https://kit.fontawesome.com/3a88e55698.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
